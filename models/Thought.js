@@ -44,6 +44,10 @@ const ThoughtSchema = new Schema(
             default: Date.now,
             get: createdAtVal => dateFormat(createdAtVal)
         },
+        username: {
+            type: String,
+            required: 'A username is required to post your thoughts'
+        },
         reactions: [ReactionSchema]
     },
     {
