@@ -16,12 +16,22 @@ const userController = {
 
     },
 
+    // add friends
+    addFriend({ params }, res) {
+
+    },
+
+    // remove friends
+    removeFriend({ params }, res){
+
+    },
+
     // update User
     updateUser({params, body}, res) {
 
     },
 
-    // delete User
+    // delete User and all associated thoughts
     deleteUser({params}, res){
 
     }

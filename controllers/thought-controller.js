@@ -2,9 +2,24 @@ const { User, Thought } = require('../models');
 
 const thoughtController = {
 
+    // get all thoughts
+    getAllThoughts(req, res){
+
+    },
+
+    // get a thought by ID
+    getThoughtById({ params }, res){
+
+    },
+
     // add thought
     addThought({ params, body }, res) {
         
+    },
+
+    // update a thought by id
+    updateThought({ params, body }, res) {
+
     },
 
     // add a reaction
