@@ -15,6 +15,12 @@
   This is a backend API for a Social Network made with MongoDB.  It is set up in a way where users could post thoughts, reactions to thoughts, and even add friends.
 
   ## Demo 
+  This is a demo of all of the routes being used.  
+  
+
+
+https://user-images.githubusercontent.com/30415670/176929177-a5f6f4ff-5079-4b41-b7ef-de63ba5eb131.mp4
+
 
   ## Installation
   After cloning the repository run `npm install` from the command line the server can be started using the command `npm start`. 
